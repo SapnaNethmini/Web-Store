@@ -1,0 +1,119 @@
+.loginsignup {
+    width: 100%;
+    height: 100vh;
+    background: #ded9cc;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginsignup-container {
+    width: 90%;
+    max-width: 580px;
+    height: auto;
+    background: white;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 1);
+    margin: auto;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.loginsignup-container h1 {
+    margin: 20px 0px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.loginsignup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.loginsignup-form input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #c9c9c9;
+    padding-left: 15px;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.loginsignup-form button {
+    width: 100%;
+    height: 50px;
+    background: #583003;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.loginsignup-form button:hover {
+    background: #ded9cc;
+    color: black;
+}
+
+.loginsignup-login {
+    color: #5c5c5c;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.loginsignup-login span {
+    color: #ff4141;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.loginsignup-social {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: center;
+    color: #5c5c5c;
+    font-size: 14px;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+.loginsignup-social input[type='checkbox'] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .loginsignup-container {
+        padding: 20px 15px;
+    }
+
+    .loginsignup-form input, 
+    .loginsignup-form button {
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .loginsignup-container h1 {
+        font-size: 24px;
+    }
+
+    .loginsignup-login {
+        font-size: 14px;
+    }
+
+    .loginsignup-social {
+        font-size: 12px;
+        text-align: center;
+    }
+}
